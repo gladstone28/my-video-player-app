@@ -1,0 +1,5 @@
+<script>
+  var redirectTo = window.location.pathname;
+  if (!redirectTo.endsWith('/')) redirectTo += '/';
+  window.location.replace('/your-repository' + redirectTo.substring(1));
+</script>
